@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.card img{
+    height: 250px;
+    width: 250px;
+    object-fit: cover;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+.card{
+    border: 1px solid rgb(243, 238, 238);
+    width: 290px;
+    
+    box-shadow:  10px 10px 10px 2px rgb(173, 171, 171) ;
+}
+.name p{
+    text-align: center;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.speprice p{
+    margin-left: 20px;
+    margin-top: 4px;
+    font-size: 20px;
+    color: green;
+    margin-bottom: 10px;
+}
+.speprice span{
+    font-size: 17px;
+    text-decoration: line-through;
+    color: black;
+}
+#offer{
+    text-decoration: none;
+    color: red;
+    text-transform: uppercase;
+    font-family: "Tinos", serif;
+    font-size: 15px;
+}
+.butt button{
+    height: 40px;
+    width: 120px;
+    margin-top: 5px;
+    margin-left: 12px;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: capitalize;
+    font-family: "Tinos", serif;
+    background-color: black;
+    color: white;
+    border: none;
+    margin-bottom: 20px;
+}
+#buy{
+    background-color: beige;
+    color: black;
+}
+.card:hover{
+    box-shadow: 0px 0px 10px 3px black;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+}
